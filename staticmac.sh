@@ -2,7 +2,9 @@
 sudo tee /usr/local/bin/set-static-mac.sh > /dev/null << 'EOF'
 #!/bin/bash
 
-
+# ==========================================
+# ONE-SHOT STATIC MAC ADDRESS INSTALLER
+# ==========================================
 
 #################### CHANGE THE TWO PARAMETERS BETWEEN THESE HASH MARKS ####################
 IFACE="eth0" # <--- REPLACE THIS WITH YOUR TARGET INTERFACE
