@@ -1,10 +1,15 @@
 # 1. Create the Script
 sudo tee /usr/local/bin/set-static-mac.sh > /dev/null << 'EOF'
 #!/bin/bash
+
+
+
 #################### CHANGE THE TWO PARAMETERS BETWEEN THESE HASH MARKS ####################
 IFACE="eth0" # <--- REPLACE THIS WITH YOUR TARGET INTERFACE
 TARGET_MAC="00:11:22:33:44:55" # <--- REPLACE THIS WITH YOUR LICENSED MAC
 ############################################################################################
+
+
 
 
 ##### NOTHING BELOW NEEDS CHANGED #####
